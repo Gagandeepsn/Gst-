@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+
+
+    
+
+    
+}
+.search-box input{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:rgb(15, 1, 1) ;
+    background-color:#e6f5fb ;
+}
+.search-box button{
+    border-radius: 10px;
+    font-size: larger;
+    padding: 13px;
+    margin-left: 13px;
+    background-color: rgb(244, 232, 6);
+}
+
+.search-box input::placeholder{
+    color: black;
+}
+
+.search-box button:hover{
+    
+    font-size: 25px;
+}
+.header{
+    width: 400px;
+    height: min-content;
+    background-color: #68a6e8;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.gst-body{
+    display:none ;
+    justify-content: space-between;
+    /*  display:none;   */
+    border-radius:12px ;
+}
+.body1{
+    height: 20rem;
+    width: 10rem;             
+    border-radius:12px ;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #e6f5fb;
+    margin-block: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.body2{
+    height: 20rem;
+    width: 10rem;             
+    border-radius:12px ;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    background-color: #e6f5fb;
+    margin-block: 20px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sy{
+    height: 10rem;
+    width: 8rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+text-align: center;
+    background-color: rgb(187, 177, 232);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.full{
+    display:none;
+   border-radius: 10px;
+   text-align: center;
+   /* /display: flex; */
+   justify-content: center;
+   align-items: center;
+   font-size: large;
+   font-weight: 800;
+    height: 5rem;
+    width: 21.5rem;
+    background-color: aliceblue;
+}
+.f{
+    height: 3rem;
+    width: 14rem;
+    margin-left: 3.5rem;
+    
+    border-radius: 10px;
+text-align: center;
+    background-color: rgb(187, 177, 232);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
